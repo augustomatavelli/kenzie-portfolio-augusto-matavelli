@@ -88,7 +88,7 @@ export const Home = (): JSX.Element => {
               </Text>
               <Text as="h3" type="heading2" color="grey1">
                 Originalidade e{" "}
-                <Text as="span" color="brand3" type="heading2">
+                <Text as="span" color="brand1" type="heading2">
                   100% de dedicação
                 </Text>{" "}
                 em cada linha de código
