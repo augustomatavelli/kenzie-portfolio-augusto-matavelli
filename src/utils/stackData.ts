@@ -4,7 +4,7 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { SiTypescript, SiPython, SiDjango, SiPostgresql, SiExpress, SiMongodb, SiNestjs } from "react-icons/si";
+import { SiTypescript, SiPython, SiDjango, SiPostgresql, SiExpress, SiMongodb, SiNestjs, SiDocker, SiAmazonaws } from "react-icons/si";
 import { TbBrandNextjs } from 'react-icons/tb'
 
 export const stackData = [
@@ -63,5 +63,13 @@ export const stackData = [
   {
     title: "Styled Components",
     img: imgStyled,
+  },
+  {
+    title: "AWS",
+    img: SiAmazonaws,
+  },
+  {
+    title: "Docker",
+    img: SiDocker,
   },
 ];
