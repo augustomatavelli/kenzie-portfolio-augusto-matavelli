@@ -53,7 +53,7 @@ export const Home = (): JSX.Element => {
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
-            Ferramentas que domino
+            Tecnologias que domino
           </Text>
           <StackCards>
             {stackData.map((stack, index) => (
