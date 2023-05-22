@@ -35,9 +35,9 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
+              Estudante de programação na Kenzie Academy Brasil, participei
               de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              desenvolvendo habilidades em diferentes tecnologias
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -67,12 +67,11 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Vamos trocar uma ideia?
+                Vamos conversar e trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No LinkedIn, compartilho meus principais projetos e estou disposto a trocar
+                algumas ideias
               </Text>
               <Button
                 type="primary"
@@ -80,7 +79,7 @@ export const Home = (): JSX.Element => {
                 as="a"
                 href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
               >
-                Acessar perfil no LinkedIn
+                Acessar meu perfil no LinkedIn
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
@@ -90,9 +89,9 @@ export const Home = (): JSX.Element => {
               <Text as="h3" type="heading2" color="grey1">
                 Originalidade e{" "}
                 <Text as="span" color="brand1" type="heading2">
-                  dedicação
+                  100% de dedicação
                 </Text>{" "}
-                em cada detalhe
+                em cada linha de código
               </Text>
               <Project />
             </ProjectsAreaContent>
