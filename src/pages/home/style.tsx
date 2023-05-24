@@ -33,10 +33,16 @@ export const HeaderButtonsArea = styled(Flex, {
   },
 });
 
+export const AboutSection = styled("section", {
+  backgroundColor: "$grey4",
+  padding: "4rem 0 0 0",
+});
+
 export const StackSection = styled("section", {
   backgroundColor: "$grey4",
   padding: "4rem 0 2rem 0",
 });
+
 
 export const StackCards = styled("div", {
   display: "grid",

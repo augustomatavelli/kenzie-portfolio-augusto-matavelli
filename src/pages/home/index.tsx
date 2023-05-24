@@ -22,6 +22,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
+  AboutSection,
 } from "./style";
 
 
@@ -50,6 +51,22 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+      <AboutSection id="about">
+        <Container>
+          <Text as="h4" type="heading3" color="grey1">
+            Sobre mim
+          </Text>
+          <br/>
+          <Text as="h4" type="body1" color="grey1">
+          Engenheiro químico com experiência em uma empresa multinacional, onde tive a oportunidade de conseguir promoções até chegar a um cargo de gestão. Nessa experiência, pude ter contato com sistemas de banco de dados e também em lógica de automação e isso despertou um interesse em migrar para a área de tecnologia. No cargo de gestão, pude estudar e aprimorar algumas soft skills como inteligência emocional e feedbacks.
+          </Text>
+          <br/>
+          <Text as="h4" type="body1" color="grey1">
+          Na área de tecnologia, estou me formando como desenvolvedor Full Stack com foco em Javascript/Typescript e Python.
+          Estou extremamente motivado com essa nova carreira, pois estou constantemente à procura de me desenvolver e crescer profissionalmente.
+          </Text>
+        </Container>
+      </AboutSection>
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
