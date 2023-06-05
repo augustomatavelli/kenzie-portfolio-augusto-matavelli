@@ -36,9 +36,9 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Estudante de programação na Kenzie Academy Brasil, participei
+              Olá, meu nome é Augusto! Sou estudante de programação na Kenzie Academy Brasil e participei
               de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades em diferentes tecnologias
+              desenvolvendo habilidades em diferentes tecnologias. Formado em Engenharia Química, tive experiências de gestão de projetos e pessoas na indústria alimentícia.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
