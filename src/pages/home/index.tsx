@@ -35,11 +35,12 @@ export const Home = (): JSX.Element => {
 							Criando experiências por meio da tecnologia{" "}
 						</Text>
 						<Text type="body1" color="grey6">
-							Olá, meu nome é Augusto! Sou estudante de programação na Kenzie
-							Academy Brasil e participei de diversos projetos resolvendo
-							problemas de alto nível e desenvolvendo habilidades em diferentes
-							tecnologias. Formado em Engenharia Química, tive experiências de
-							gestão de projetos e pessoas na indústria alimentícia.
+							Olá, meu nome é Augusto! Sou Desenvolvedor Web Full Stack formado
+							pela Kenzie Academy Brasil e participei de diversos projetos
+							resolvendo problemas de alto nível e desenvolvendo habilidades em
+							diferentes tecnologias. Formado em Engenharia Química, tive
+							experiências de gestão de projetos e pessoas na indústria
+							alimentícia.
 						</Text>
 						<HeaderButtonsArea>
 							<Button as="a" href="#projetos">
@@ -59,7 +60,7 @@ export const Home = (): JSX.Element => {
 					</Text>
 					<br />
 					<Text as="h4" type="body1" color="grey1">
-						Sou Desenvolvedor Web Front End, com experiência em engenharia
+						Sou Desenvolvedor Web Full Stack, com experiência em engenharia
 						química em uma empresa multinacional, onde tive a oportunidade de
 						conseguir promoções até chegar a um cargo de gestão. Nessa
 						experiência, pude ter contato com sistemas de banco de dados e
@@ -70,10 +71,10 @@ export const Home = (): JSX.Element => {
 					</Text>
 					<br />
 					<Text as="h4" type="body1" color="grey1">
-						Na área de tecnologia, estou me formando como desenvolvedor Full
-						Stack com foco em Javascript/Typescript e Python. Estou extremamente
-						motivado com essa nova carreira, pois estou constantemente à procura
-						de me desenvolver e crescer profissionalmente.
+						Na área de tecnologia, sou desenvolvedor Full Stack com foco em
+						Javascript/Typescript e Python. Estou extremamente motivado com essa
+						nova carreira, pois estou constantemente à procura de me desenvolver
+						e crescer profissionalmente.
 					</Text>
 				</Container>
 			</AboutSection>
